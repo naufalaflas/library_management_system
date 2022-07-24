@@ -2,13 +2,13 @@
 # coding: utf-8
 
 
-#menghubungkan python dengan mysql
+
 import mysql.connector 
 from mysql.connector import Error
 
+# Menghubungkan mysql dengan python
 def create_server_connection(host_name, user_name, user_password):
-    connection = None
-    
+    connection = None    
     try:
         connection = mysql.connector.connect(
             host=host_name,
@@ -22,7 +22,7 @@ def create_server_connection(host_name, user_name, user_password):
 
 host = "localhost"
 user = 'root'
-pw = "hwxq6762"
+pw = "123"
 
 # koneksi ke server
 connection = create_server_connection(host, user, pw)
@@ -30,7 +30,7 @@ connection = create_server_connection(host, user, pw)
 
 
 
-#Membuat database
+# Membuat database
 def create_database(connection, query):
     cursor = connection.cursor()
     try:
