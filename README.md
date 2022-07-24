@@ -42,5 +42,4 @@
 
 
 ## Saran Perbaikan
-1. output dari program ini belum berupa tabel
-2. code belum terlalu rapih
+- Program lms ini merupakan salah satu project pertama saya, program ini dibuat sederhana sehingga ada kekurangannya seperti output informasi belum berbentuk tabel, tidakada fitur yang meng-autogenerate fines dll
