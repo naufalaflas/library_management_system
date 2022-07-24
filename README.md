@@ -37,8 +37,9 @@
 - fungsi ini dibuat untuk menampilkan menu dam dapat menerima input sebagai perintah dari user 
 
 ## Cara Running
-1. run `./lms_main.py` di terminal
-2. user harus menyesuaikan user dan password mysql sendiri sebelum running
+1. sebelum running harus menyesuaikan user dan password mysql di local sendiri
+2. run `./lms_main.py` di terminal
+
 
 ## Saran Perbaikan
 1. output dari program ini belum berupa tabel
